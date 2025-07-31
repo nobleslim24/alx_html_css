@@ -138,3 +138,49 @@ button {
 .pink-text {
   color: #c271ff;
 }
+.quote-section {
+  background-color: #bb6bd9; /* Use the exact color from Figma if available */
+  padding: 60px 20px;
+  color: white;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.quote-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* removed border */
+}
+
+
+.quote-content {
+  max-width: 600px;
+}
+
+blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.quote-content p {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #f1f1f1;
+}
