@@ -396,3 +396,46 @@ button {
   line-height: 1.6;
   font-size: 15px;
 }
+.footer {
+  background-color: #071629;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials i {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-socials i:hover {
+  color: #c271ff;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
