@@ -287,3 +287,63 @@ button {
   color: C271FF; /* or use your specific pink color */
 }
 
+.membership-section {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.membership-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.pink-text {
+  color: #c271ff;
+}
+
+.membership-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.membership-card {
+  max-width: 120px;
+}
+
+.membership-card img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.membership-card h3 {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.membership-card p {
+  font-size: 11px;
+  color: #d8d8d8;
+  line-height: 1.2;
+}
+
+.register-button {
+  background-color: #c271ff;
+  color: white;
+  padding: 8px 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #a857e4;
+}
