@@ -347,3 +347,52 @@ button {
 .register-button:hover {
   background-color: #a857e4;
 }
+.faq-section {
+  background-color: #ffffff; /* true white */
+  padding: 60px 20px;
+}
+
+
+.faq-title {
+  font-size: 28px;
+  font-weight: 300;
+  color: #4a4a4a; /* Light black */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 2px; /* spacing between letters */
+  margin-bottom: 40px;
+  text-transform: uppercase; /* Optional: if you want it all caps */
+}
+
+
+
+
+.faq-columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.faq-column {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 15px;
+}
